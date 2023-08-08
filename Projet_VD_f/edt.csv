@@ -1,0 +1,57 @@
+specialite,annee,jour,heure,salle,grp,type,module,prof,adrprof
+miv,1,Dimanche,8h,TP.C3A,1,TP,RESOLUTION PROBLEME,DELLOUL,delloul@gmail.com
+miv,1,Dimanche,8h,LABO.lang,2,TD,ANGLAIS,BOUDEFASSA,boudefassa@gmail.com
+miv,1,Dimanche,9h40,LABO.lang,1,TD,ANGLAIS,BOUDEFASSA,boudefassa@gmail.com
+miv,1,Dimanche,9h40,TP.C3A,2,TP,RESOLUTION PROBLEME,DELLOUL,delloul@gmail.com
+miv,1,Dimanche,11h20,D6,0,COURS,RESOLUTION PROBLEME,LARABI,larabi@gmail.com
+miv,1,Dimanche,13h,D6,0,COURS,TAI,SETITRA,setitra@gmail.com
+miv,1,Dimanche,14h,D5,2,TD,TAI,SETITRA,setitra@gmail.com
+miv,1,Lundi,8h,TP.C4,1,TP,SYS,BENCHAIBA,benchaiba@gmail.com
+miv,1,Lundi,8h,TP.C5,2,TP,TAI,SETITRA,setitra@gmail.com
+miv,1,Lundi,9h40,D6,0,COURS,ABDD,DJIROUNE,djiroune@gmail.com
+miv,1,Lundi,11h20,405,1,TD,TAI,SETITRA,setitra@gmail.com
+miv,1,Lundi,11h20,166,2,TD,SYS,BENCHAIBA,benchaiba@gmail.com
+miv,1,Lundi,13h,TP.C8,1,TP,TAI,SETITRA,setitra@gmail.com
+miv,1,Lundi,13h,TP.127,2,TP,SYS,BENCHAIBA,benchaiba@gmail.com
+miv,1,Mardi,8h,E6,0,COURS,SYS,BENCHAIBA,benchaiba@gmail.com
+miv,1,Mardi,9h40,E6,0,COURS,MULT,LARABI,larabi@gmail.com
+miv,1,Mardi,11h20,249,1,TD,SYS,BENCHAIBA,benchaiba@gmail.com
+miv,1,Mardi,13h,TP.C4,1,TP,ALGO,MESSAOUDI,messaoudi@gmail.com
+miv,1,Mardi,13h,TP.C5,2,TP,ABDD,KESSI,kessi@gmail.com
+miv,1,Mardi,14h40,TP.C4,1,TP,ABDD,KESSI,kessi@gmail.com
+miv,1,Mardi,14h40,TP.C5,2,TP,ALGO,MESSAOUDI,messaoudi@gmail.com
+miv,1,Mercredi,8h,R4,0,COURS,ALGO,MESSAOUDI,messaoudi@gmail.com
+miv,1,Mercredi,9h40,406,1,TD,ALGO,MESSAOUDI,messaoudi@gmail.com
+miv,1,Mercredi,9h40,TP.C5,2,TP,MULT,LARABI,larabi@gmail.com
+miv,1,Mercredi,11h20,387,2,TD,ALGO,MESSAOUDI,messaoudi@gmail.com
+miv,1,Mercredi,11h20,TP.C5,1,TP,MULT,LARABI,larabi@gmail.com
+miv,2,Dimanche,8h,162,1,TD,SEM,OURAHMOUNE,ourahmoune@gmail.com
+miv,2,Dimanche,8h,118,2,TD,THJ,DAHMANI,dahmani@gmail.com
+miv,2,Dimanche,9h40,135D,0,COURS,VD,LARABI,larabi@gmail.com
+miv,2,Dimanche,11h20,117D,0,COURS,SEM,OURAHMOUNE,ourahmoune@gmail.com
+miv,2,Dimanche,13h,TP.128,1,TP,VD,djeloul,djeloul@gmail.com
+miv,2,Dimanche,13h,TP.C4,2,TP,SEM,OURAHMOUNE,ourahmoune@gmail.com
+miv,2,Dimanche,14h30,TP.130,2,TP,VD,djeloul,djeloul@gmail.com
+miv,2,Lundi,8h,Salle de conference,0,COURS,PROGRES,ELNEGGAR,elneggar@gmail.com
+miv,2,Lundi,9h40,TP.C4,1,TP,RCR,KHELLAF,khellaf@gmail.com
+miv,2,Lundi,9h40,TP.C5,2,TP,AC,LARABI,larabi@gmail.com
+miv,2,Lundi,11h20,TP.C5,1,TP,AC,LARABI,larabi@gmail.com
+miv,2,Lundi,11h20,TP.128,2,TP,SIM,DAHMANE,dahmane@gmail.com
+miv,2,Lundi,13h,TP.132,1,TP,SIM,DAHMANE,dahmane@gmail.com
+miv,2,Mardi,8h,103D,0,COURS,GP,HACHEMI,hachemi@gmail.com
+miv,2,Mardi,9h40,103D,0,COURS,SIM,DAHMANE,dahmane@gmail.com
+miv,2,Mardi,11h20,TP.C5,1,TP,SEM,OURAHMOUNE,ourahmoune@gmail.com
+miv,2,Mardi,11h20,TP.127,2,TP,GP,BENSALEH,bensaleh@gmail.com
+miv,2,Mardi,13h,TP.C6,1,TP,PROGRES,BOUACHI,bouachi@gmail.com
+miv,2,Mardi,14h30,TP.C6,2,TP,PROGRES,BOUACHI,bouachi@gmail.com
+miv,2,Mardi,14h30,TP.C7,1,TP,GP,BENSALEH,bensaleh@gmail.com
+miv,2,Mercredi,8h,338,2,TD,SEM,OURAHMOUNE,ourahmoune@gmail.com
+miv,2,Mercredi,8h,402,1,TD,THJ,DAHMANI,dahmani@gmail.com
+miv,2,Mercredi,9h40,R4,0,COURS,RCR,KHELLAF,khellaf@gmail.com
+miv,2,Mercredi,11h20,D7,0,COURS,THJ,DAHMANI,dahmani@gmail.com
+miv,2,Mercredi,13h,TP.C5,1,TP,THJ,SEHNOUN,sehnoun@gmail.com
+miv,2,Mercredi,13h,TP.C6,2,TP,RCR,BELHADI,belhadi@gmail.com
+miv,2,Mercredi,14h30,TP.C3A,2,TP,THJ,SEHNOUN,sehnoun@gmail.com
+SII,2,Dimanche,8h,TP.130,2,TP,"DATA MINING",HOUACINE,HOUACINE@gmail.com
+SII,2,Dimanche,8h,407,3,TD,P.CONTR,ISLI,ISLI@gmail.com
+sii,2,Dimanche,11h20,TP.129,1,TP,TextMining,KECI,keci@gmail.com

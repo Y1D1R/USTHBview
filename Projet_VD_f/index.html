@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/png" href="logoUsthb.png" />
+		<meta charset="utf-8">
+		<title>USTHB</title>
+		<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=-uCyNqFMrvyJIRjLAGjjrUE_wWDQwfJ4O8n9rpGGxIkc5yzNRBX5RTVrelEBy5IiwweauOWpVNpzTTOqqMGIas2FO3R9jtlQdCtTpHHLEK0PrnF67rq6Gu8mAxb8dvIQ_92s7gbNVArj35QeBjjd-OJEj4S5MhO92SuzqLpGIiCnI6vgjLVqN-BIgkqWFhxPPFtWmBm5O1rMsAO0RKdLVZJtV1aP-e4R5644sl7v4si1vHHmZVZFUjHhltLscqWv8e_WymyyuHi05IOX6_T5ifoVm-vV-OkitUSQ3wm_qcuaq76Hr9gD0PT0Kpqha0gsHnros1z-Q3DfGqJaYGITI2aAXFB1AJU2jUahgpB54bfbbg8cv2fvi-Uz9ELQZY3XIqOqvtSwe82ag67MkHaakcA5tYSBgoCVS7jn66lImrfK8lOQkAbF0dL-iUiXjIvUaRONQ3S1OS-ONDJo8OBZRYDS7pa0-zBOah9Hybx2REXYJd4LthRSwD_3KIvOZ9QuF4_dICJwF4dTijesAeGcBnDbFFW45GNmMsLnpRRfs4G8AfTeE18ZeO9rKWyZQhF9DIrQvn85NmJlWO0HhVtrNc42lpoluM9hFhHeBIRSHG_ss__YVaKAE546lakPM4hwgaT12u0qIcYL6AFZi-lHQ15ytaKXNvpJ2_WTWYKCIj45hbmNTxF9_qNokcLNHUNdMXKxrc-07TZYAIKzZDBQ4p-GjrfM5_X-LbLRPaBy6fJ9QFfXPW8jDe61slcvOzM0GD3U5UkjHy2rqePVUM3AAR5GSQFzVNAhkn1ZW6vHGzFlCrVEqRu_OQFjhhK8oiNcaD2KW8yaNewRfO7XYHnLBIUM4pHa3K81YSrlR9pGl61IRVLMLaVnnzfgShNnPfCE68yQjBTwpkA7iY8c2GzpOc6mr7Jg3IpeKNvyRBwewqXorVFqMHlz5RO81f5T8MzLi1SoBr1Ph4ySpNGrtn_nUmQ6QZtPJdACIZa7U2TCeZRCo18_D-26l8oIQejuhxmBZ4BY8sUTw77Of_Kqo3HgNt8XGjn0_NmmtUoY-j0JQ8YdykGLE4aQAWgfQ4WpsgHdzj01HqFPfVpFhW6767Dto0WpULDCg9_jGeFSWD2GqPKoOxWfvkVi4BkOtfjjkOgA3wtUjr7U1dE2_5CLAqFUlbR5KrQ8fNcdvckOK0x-x55PPwSt9mHbuP55e8TEuRc0wwu6fhRyHB5gwpQN_zHS-rJDoxEbdYTK5o9bkbZRae6D2fb7pV2tS_N84-bkphgiL-I_snuR8a0j-x_8LK9lPNR25lsPl_3wtcLnfMhVB6v7xRdp2qWFTx4vfpWReItUKsRcfeUr--oRHl1oDhlAGH1YJ-OJx2m5uFv5Dmm-SckvCcrs8geaBmRxZWDEcWtBEsieEBeOK6vs9yRWR0SEaqMDIn76MAz2PW6p2o3zKNh5UxDKJ_h4n1lj4w_ZCkWg04wbZdG8pDLU34jfjbQ_CiTKisEbveH6ZXqducpuAHz0e2FNzeWbFAtg-s2NGFRMx-WBazhEXggzOCV3luLXO0f0ERsSYTC4dxssjiNrT6Q" nonce="807b6b1dab9ea6843f71e827cb170eda" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPWY1Y2ZlYzI5MWImYXR0aWQ9MC42JnBlcm1tc2dpZD1tc2ctZjoxNzQ4MDQ4NDE4ODY5MzY1MjA2JnRoPTE4NDI1MGM2ODBlNDQ5ZDYmdmlldz1hdHQmZGlzcD1zYWZlJnJlYWxhdHRpZD1mX2w5dTltNTk3NSZzYWRkYmF0PUFOR2pkSl91UUNtNWwzWXdTc2NfeVRSclRPanFnMTR4SUdTcU9oaU1LNDZPNjcwYkxSRjU2X1VUdFRPbVV2TzE5UWtZcFZhZkVKT1o2V3UxT05WaVZMZXJ6aDNGaThXc2ItQm1hTDJzVTBlenZqSW5yUzFZbEpjUWlGV3NwSFlWc0ZhMEZ5eTRKd3VxNk9DT2dQR0ZlSVVXUjVZUW5EcHFzanJ6Z3hJcUJYaGVWMGF4TTFQM3dOZFV4MjhGNmpOdWVnb05WMFRrNnRya3lZZVVPWTg3TG5ZaVlldEMybUxtcC00MktzdE8xWHZXZ3VvSTFzTVBiaTg4bi1McXVCSy1wWklyNjB3VWRNYXpkMFhYWFFkcVdrdXI4a3JDV2gwSUYzSmhPMHZfNEE1WWlSQkMydl9NcDhkRlVOaFNpYUF1dWJBMEZYajk5VHdzYlc0WUgxLTdhSk1ya2xUU3JGUEhySlZGbXBHUUVBWVFXeTc4NnlkVGlHcE9OSndhTDVmUWd3d0dydUhnQ3h3Q3RlalJEdXRXTkRGZTczN0RERFU3ZEdseWhRMUdsR2hScV9LUTVIUGJOVDQ2VXFhNXRQYUJHbVV0cUdfWUVzVTlUeWRkSElodlVXYWJaZm42eEk3cWh5NmNKQlpSeDlqYTE0ZXZndFBMLXRlSnV4cExWNVROeWEyckRHdXNFa1lhU1VRYmlhSG1wdHJka0xPUWpXM05HeUQ1bG1xTVJQc3dzbHBwT2ZVLU4tT082UDc4Y0pnN0pXRnBfYmw4QXpyY1JzYlBTemNUQ2RQdGgya3hjRnBQR2dkMEY5aHhUR1ZPbmo3eWtmaFBTNzZZSFBxcno5QXVFOERBOVJQR3VMNFR6bThuN0RLRmtBVlJBbDJaUXJ5UFBxZVo2X2xQZXVUNF9NaEpvc0M2ZEd5Wmo1Zmk2RldlbDJWeFJtbGJkVEk0SHVVNGpwTkxZV2VQeFRqazZHeUlDcGlDR2VaOTBFaXF6WHJiRGprd0tQN0lFa1k3WWNPRldmY09LMFVmVzczOTdPb3dlQlByOGI4OVk5TkwwdDg1SHJVU2JrOV90TURHRFM1enphcm9uN29mQ3d4X2ZQMkRQTHU1aXQwbXliTU84VldLRWxBcHYtTnppR3VSZ0RHQ0N1VFNnLWlEc3hmckdZeEZlMDVSLThkZVBCM29ZZHFrUnA0QmZMZVBGTXJyZFRUUVhmWmdNWjlkb3ZzSy1FbUNXTlFqb2tkdDlkUDhmUW9KMkl5WWZwUFloZkE5WnVv"/><script type="text/javascript" src="d3.v3.js"></script>
+		<style>
+		
+			html, body {
+				width: 100%;
+				height:100%;
+			  }
+
+			div{
+				margin:20px;
+				margin-left: 30px;
+			}  
+			p{
+				margin:10px;
+				margin-left: 100px;
+				
+			}
+
+			svg{
+				position: absolute;
+			    width : 45%;
+				right : 5%;
+
+			}  
+			 
+			  body {
+				  background: #ececec;
+				  background-size: 400% 400%;
+				  font-family: verdana;
+			      font-size: 24px;
+				  color:black;
+			  }
+			  
+			 
+			.container {
+				position: absolute;
+				top: 10%;
+			  }
+			  .button {
+				border: none;
+				display: block;
+				text-align: center;
+				cursor: pointer;
+				text-transform: uppercase;
+				outline: none;
+				overflow: hidden;
+				position: relative;
+				color: #eeeeee;
+				font-weight: 600;
+				font-size: 15px;
+				background-color: #142d4c;
+				padding: 15px 50px;
+				margin: 0 auto;
+				border-radius: 10px;      
+			  }
+			  .button span {
+				position: relative;
+				z-index: 1;
+			  }
+			  .button:after {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 0;
+				height: 470%;
+				width: 140%;
+				background: #385170;
+				-webkit-transition: all 0.5s ease-in-out;
+				transition: all 0.5s ease-in-out;
+				-webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+				transform: translateX(-100%) translateY(-25%) rotate(45deg);
+			  }
+			  .button:hover:after {
+				-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+				transform: translateX(-9%) translateY(-25%) rotate(45deg);
+			  }
+			
+				
+			div.tooltip {   
+				position: absolute;         
+				text-align: center;         
+				width: 80px;                    
+				height: 28px;                   
+				padding: 2px;               
+				font: 12px sans-serif;      
+				background: lightsteelblue; 
+				border: 0px;        
+				border-radius: 10px;         
+				pointer-events: none;           
+			}
+
+		.cl1{
+		fill:white;
+		stroke: black;
+		color: cornflowerblue;
+		}
+
+		pathh {
+			fill: #3182bd;
+		  }
+		  
+		  text {
+			font-family: verdana;
+			font-size: 24px;
+		  }
+		 select{
+			font-family: verdana;
+			font-size: 20px;
+			background-color: whitesmoke;
+			color: black;
+			border-radius: 10px;
+		 }
+		 input{
+			font-family: verdana;
+			font-size: 20px;
+			background-color: whitesmoke;
+			color: black;
+			border-radius: 10px;
+		 }
+		 h1 {
+			
+			font-family: verdana;
+			font-size: 120%;
+			text-align-last: center;
+			color: aliceblue;
+			background-color: #385170;
+			border-radius: 10px;
+			padding: 20px;
+		  }
+
+		  table {
+			border-collapse: collapse;
+			width : 80%;
+			color : #eb4034;
+			font-family : monospace;
+			font-size : 25px;
+			text-align : left;
+	
+	
+		}
+		th{
+			background-color : #eb4034;
+			color:white;
+		}
+		tr:nth-child(even){background-color:#ededed}
+
+		 button#evenement.button , button#prof.button{
+            position: absolute;
+			left:15%;
+
+		}
+		input, select{
+			background-color: #9fd3c7;
+			padding: 10px;
+		}
+		#fin{
+			border-style: outset;
+			margin: 2cm;
+			border-radius: 5px;
+			border-width: 0.2cm;
+		}
+		
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="entete">
+        <h1>Université des Sciences et de la Technologie Houari Boumediene</h1>
+		</div>
+	    <center><img src="university.png" alt="univ" style="text-align: center; width: 100px; height:100px;"></center>
+		<br>
+		
+		<center><p><img src="info.png" alt="inf" style="width: 40px; height:40px;">  Ce site a pour but de visualiser les différentes activités au sein de L'USTHB</p></center>
+		<br>
+		
+		
+
+		<div id="chart" align="center"></div>
+		
+		<script type="text/javascript">
+
+			//Width and height
+			var w = 900;
+			var h = 600;
+			var centered;
+
+			//Define map projection
+			var proj = d3.geo.mercator()
+								   .translate([0,0])
+								   .scale([1])
+								   ;
+
+			//Define path generator
+			var path = d3.geo.path()
+							 .projection(proj);
+							 
+			
+			var svg = d3.select("#chart")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h)
+						.attr("transform", "rotate(35)");
+
+			
+			function chercherFilier(map,json,data,annee, Specialitée, grp,jour, heure){
+				var classe = ""
+				var module=""
+				for( i = 0; i<data.length; i++){
+					if (data[i]['specialite'].toUpperCase() == Specialitée.toUpperCase() && data[i]['annee'].toUpperCase() == annee.toUpperCase() && data[i]['grp'] == grp &&data[i]['jour'] == jour&& data[i]['heure'] == heure ){
+						classe = data[i]['salle'];
+						module = data[i]['module'];
+						break;
+					}
+				}
+				console.log(classe);
+				console.log(classe.charAt(0));
+                if(classe.charAt(0)=="1" || classe.charAt(0)=="2")
+				{
+					console.log("salle 100");
+					//////////////////////////////////////////////////////////////////////
+					map.enter()
+					  			.append("path")
+					   			.attr("d", path)
+								.on("click", clicked)
+								.attr("fill", (d, i) => 
+								{ 
+	
+									if(d.properties.NOM == "salles 100 200")
+						  			{
+										return "red";
+						 		 	}else{
+										return "white";
+									}
+								})
+								.attr("stroke","black" )
+					   			.attr("stroke-width" , 2);
+
+				}else{
+					if(classe.substring(0,4)=="TP.1")
+				{
+					console.log("faculté info");
+					//////////////////////////////////////////////////////////////////////
+					map.enter()
+					  			.append("path")
+					   			.attr("d", path)
+								.on("click", clicked)
+								.attr("fill", (d, i) => 
+								{ 
+	
+									if(d.properties.NOM == "faculte info")
+						  			{
+										return "red";
+						 		 	}else{
+										return "white";
+									}
+								})
+								.attr("stroke","black" )
+					   			.attr("stroke-width" , 2);
+
+				}else{
+					if(classe.charAt(0)=="3" || classe.charAt(0)=="4")
+				{
+					console.log("faculté info");
+					//////////////////////////////////////////////////////////////////////
+					map.enter()
+					  			.append("path")
+					   			.attr("d", path)
+								.on("click", clicked)
+								.attr("fill", (d, i) => 
+								{ 
+	
+									if(d.properties.NOM == "salles 300 400")
+						  			{
+										return "red";
+						 		 	}else{
+										return "white";
+									}
+								})
+								.attr("stroke","black" )
+					   			.attr("stroke-width" , 2);
+
+				}else{
+					if(classe.substring(0,4)=="TP.C")
+				{
+					console.log("N blocs");
+					//////////////////////////////////////////////////////////////////////
+					map.enter()
+					  			.append("path")
+					   			.attr("d", path)
+								.on("click", clicked)
+								.attr("fill", (d, i) => 
+								{ 
+	
+									if(d.properties.NOM == "NB A1")
+						  			{
+										return "red";
+						 		 	}else{
+										return "white";
+									}
+								})
+								.attr("stroke","black" )
+					   			.attr("stroke-width" , 2);
+								
+
+				}else{
+
+					if(classe.charAt(0)=="D" || classe.charAt(0)=="C")
+				{
+					console.log("faculté info");
+					//////////////////////////////////////////////////////////////////////
+					map.enter()
+					  			.append("path")
+					   			.attr("d", path)
+								.on("click", clicked)
+								.attr("fill", (d, i) => 
+								{ 
+	
+									if(d.properties.NOM == "NB B1")
+						  			{
+										return "red";
+						 		 	}else{
+										return "white";
+									}
+								})
+								.attr("stroke","black" )
+					   			.attr("stroke-width" , 2);
+
+				}else{
+
+					if(classe.charAt(0)=="R" || classe.charAt(0)=="E")
+				{
+					console.log("faculté info");
+					//////////////////////////////////////////////////////////////////////
+					map.enter()
+					  			.append("path")
+					   			.attr("d", path)
+								   .on("click", clicked)
+								.attr("fill", (d, i) => 
+								{ 
+	
+									if(d.properties.NOM == "NB B2")
+						  			{
+										return "red";
+						 		 	}else{
+										return "white";
+									}
+								})
+								.attr("stroke","black" )
+					   			.attr("stroke-width" , 2);
+
+				}
+
+				}
+
+				}
+				}
+
+				}
+
+				}
+				alert("il sont dans la salle : "+classe+" ====>   Module "+module);
+				
+					   
+			};
+
+		d3.csv("edt.csv", function(data){
+
+
+		d3.json("usthbV2.geojson", function(json) {
+            var b = path.bounds(json);
+            console.log(b);
+               s = .99 / Math.max( (b[1][0] - b[0][0]) / w , (b[1][1] - b[0][1]) / h ); 
+               t = [ (w - s * (b[1][0] +b[0][0])) / 2 , (h - s * (b[1][1]+b[0][1])) / 2 ];
+               console.log(s,t);
+            proj.translate(t).scale(s);
+
+					
+			/// main
+					var map = svg.selectAll("path")
+					   .data(json.features);             
+             		map.enter()
+					   .append("path")
+					   .attr("d", path)
+					   .on("click", clicked)
+					   .attr("class","cl1");
+					  
+					document.getElementById('c').onclick = function() {
+						var radios = document.getElementsByName('faculte');
+						for (var radio of radios)
+						{
+							if (radio.checked) 
+							{
+								alert(radio.value+" est selectionée");
+							    radio.checked = false;
+								window.open('FEI.html');
+								   
+								
+							}
+								
+						}
+					}
+
+					document.getElementById('b').onclick = function() {
+						var radios2 = document.getElementsByName('bloc100');
+						for (var radio of radios2)
+						{
+							if (radio.checked) 
+							{
+								alert(radio.value+" est selectionée");
+							    radio.checked = false;
+								window.open("100.html");
+								   
+								
+							}
+								
+						}
+					}
+
+					document.getElementById('b2').onclick = function() {
+						var radios2 = document.getElementsByName('bloc200');
+						for (var radio of radios2)
+						{
+							if (radio.checked) 
+							{
+								alert(radio.value+" est selectionée");
+							    radio.checked = false;
+								window.open("200v2.html");
+								   
+								
+							}
+								
+						}
+					}
+
+					document.getElementById('b3').onclick = function() {
+						var radios2 = document.getElementsByName('bloc300');
+						for (var radio of radios2)
+						{
+							if (radio.checked) 
+							{
+								alert(radio.value+" est selectionée");
+							    radio.checked = false;
+								window.open("300v2.html");
+								   
+								
+							}
+								
+						}
+					}
+
+					document.getElementById('b4').onclick = function() {
+						var radios2 = document.getElementsByName('bloc400');
+						for (var radio of radios2)
+						{
+							if (radio.checked) 
+							{
+								alert(radio.value+" est selectionée");
+							    radio.checked = false;
+								window.open("400v2.html");
+								   
+								
+							}
+								
+						}
+					}
+
+
+					document.getElementById('submit').onclick= function (){chercherFilier(map,json,data,document.getElementById('NomAn').value, document.getElementById('NomSp').value,document.getElementById('NumGrp').value,document.getElementById('jour').options[document.getElementById('jour').selectedIndex].text,document.getElementById('heure').value  );};
+                    document.getElementById('evenement').onclick= function (){window.open("evenement.php");}
+					document.getElementById('prof').onclick= function (){window.open("prof.php");}
+					document.getElementById('edt').onclick = function(){window.open('Edt.html')}
+
+				});
+				
+				
+				
+			});
+
+			function clicked(d) {
+				var x, y, k;
+			  
+				if ( centered !== d) {
+				  var centroid = path.centroid(d);
+				  x = centroid[0];
+				  y = centroid[1];
+				  k = 2;
+				  centered = d;
+				} else {
+				  x = w ;
+				  y = h ;
+				  k = 1;
+				  centered = null;
+				}
+			  
+				svg.selectAll("path")
+					.classed("active", centered && function(d) { return d === centered; });
+			  
+					svg.transition()
+					.duration(750)
+					.attr("transform", "translate(" + w / 2 + "," + h / 2 + ")scale(" + k + ")translate(" + -x/2 + "," + -y/2 + ")rotate(35)")
+					.style("stroke-width", 1.5 / k + "px");
+
+					
+			  }
+		</script>
+        <br>
+		<p><img src="function.png" alt="function" style="width: 40px; height:40px;">   Les fonctionnalites :</p>
+		<br>
+		<div> 
+		    <img src="event.png" alt="event" style="width: 40px; height:40px;">  Les évènements organisés par La faculté: 
+			<br>
+			<br><button id="evenement" class="button"><span>Evènements</span></button>
+		
+		</div>
+		<br>
+		<div> 
+		    <img src="prof.png" alt="prof" style="width: 40px; height:40px;">  Spécial pour les enseignants : <br> 
+			<br><button id="prof" class="button"><span>Enseignant</span></button>
+		
+		</div>
+		<br>
+		<div>
+		<img src="map.png" alt="map" style="width: 40px; height:40px;">  Exploration de l'université :
+	</div>
+		<div>
+        
+			<div>
+				Facultées:
+				<input id="c" type="radio" name="faculte" value="Facultée Informatique" /> FEI
+				<br>
+			</div>
+				
+				<div> 
+					Blocs :
+					<input id ="b" type="radio" name="bloc100" value="Les 100" />  100
+					<input id ="b2" type="radio" name="bloc200" value="Les 200" /> 200
+					<input id ="b3" type="radio" name="bloc300" value="Les 300" /> 300
+					<input id ="b4" type="radio" name="bloc400" value="Les 400" /> 400
+				</div>
+				<div>
+					 <button id="edt" class="button"><span>Emplois du temps</span></button>
+				</div>
+			</div>
+		<br>
+		<div id="fin">
+			<br>
+		<center>
+			<center><img src="schedule.png" id="sc" alt="sched" style="width: 70px; height:70px;" class="imgg"></center>
+		<div>
+			Specialitée: <input type="text" id="NomSp" />
+			
+			Année: <input type="text" id="NomAn" />
+			Groupe:<input type="text" id="NumGrp"/>
+
+		</div>
+		
+			<div >
+			Jour :
+			<select name="jour" id="jour">
+				<option value="Samedi">Samedi</option>
+				<option value="Dimanche">Dimanche</option>
+				<option value="Lundi">Lundi</option>
+				<option value="Mardi">Mardi</option>
+				<option value="Mercredi">Mercredi</option>
+				<option value="Jeudi">Jeudi</option>
+			  </select>
+			heure : <select name="heure" id="heure">
+				<option value="8h">8h</option>
+				<option value="9h40">9h40</option>
+				<option value="11h20">11h20</option>
+				<option value="13h">13h</option>
+				<option value="14h30">14h30</option>
+			  </select>
+			
+			 
+
+		</div>
+	
+		<br>
+		
+
+		
+		 <button id="submit" class="button"><span>Chercher</span></button>
+		</center>
+		<br>
+	</div>
+	</body>
+</html>
