@@ -9,11 +9,19 @@ Suivez les étapes ci-dessous après avoir installé XAMPP avec succès :
 
 Copiez le contenu du dossier "Projet_VD_f" dans le répertoire "htdocs" de votre installation XAMPP. Par exemple, si XAMPP est installé dans le répertoire "C:\xampp", copiez les fichiers dans "C:\xampp\htdocs".
 
+![screen4](Images/1.png)
+
 Copiez le contenu du dossier "mysql" dans le répertoire principal de votre installation XAMPP. Assurez-vous de supprimer tout contenu préexistant dans le dossier "mysql" avant de copier les fichiers. Par exemple, si XAMPP est installé dans "C:\xampp", copiez les fichiers dans "C:\xampp".
+
+![screen2](Images/2.png)
 
 Démarrez XAMPP et activez les services nécessaires.
 
+![screen3](Images/3.png)
+
 Accédez au site en ouvrant votre navigateur web et en entrant l'URL suivante : http://localhost/Projet_VD_f/
+
+![screen1](Images/4.png)
 
 C'est tout ! Vous devriez maintenant être en mesure de visualiser les différentes activités universitaires et les emplois du temps des classes grâce à USTHBview.
 
